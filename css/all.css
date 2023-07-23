@@ -1,0 +1,217 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  outline: 1px solid;
+}
+
+body {
+  font-family: "Bruno Ace SC", cursive;
+  line-height: 1.5;
+  background: #000;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+span {
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 40px;
+}
+
+.banner .bn-pic {
+  margin: 72px 0;
+}
+.banner .bn-text {
+  max-width: 50%;
+}
+.banner h1 {
+  color: #00FFA3;
+  text-align: right;
+}
+.banner a {
+  background: #FFF;
+  color: #000;
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+.banner a:hover {
+  background: #00FFA3;
+}
+.banner .btn {
+  text-align: right;
+}
+
+.introduction {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+}
+.introduction .container {
+  padding: 160px 0;
+  display: flex;
+}
+.introduction .intro {
+  max-width: 526px;
+}
+.introduction .intro-pic {
+  max-width: 100%;
+}
+.introduction .intro-pic img {
+  margin-right: 0;
+}
+
+.about-me {
+  background: #fff;
+  color: #000;
+  padding: 160px 0;
+}
+.about-me .container {
+  display: flex;
+}
+.about-me .card-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-me .card {
+  max-width: 306px;
+  border: 1px solid #e3e3e3;
+  padding: 16px;
+}
+.about-me .about-text {
+  max-width: 526px;
+}
+
+.contact {
+  padding: 96px 0;
+}
+.contact .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact .icon-group {
+  width: 526px;
+}
+.contact .icon-group img:hover {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+  border-radius: 40px;
+}
+
+.product {
+  background: #fff;
+  color: #000;
+  padding: 160px 0;
+  display: flex;
+}
+.product h2 {
+  padding-right: 216px;
+}
+.product .product-group {
+  display: flex;
+}
+.product .product-group .pic img {
+  max-width: 416px;
+}
+.product .pro-intro {
+  display: flex;
+}
+.product .pro-intro .pro-intro-text {
+  width: 636px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product .pro-intro .pro-intro-pic {
+  width: 196px;
+  height: 196px;
+}
+.product .pro-intro a {
+  background: #000;
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+.product .pro-intro a:hover {
+  background: #00FFA3;
+  color: #000;
+}
+.product .pro-intro a:hover img {
+  filter: brightness(0);
+}
+.product .pro-intro .btn {
+  margin-bottom: 8px;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 0;
+}
+
+h1 {
+  font-size: 128px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.fs-1-text {
+  font-size: 32px;
+}
+
+.fs-2-text {
+  font-size: 24px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.ml-24 {
+  margin-left: 24px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-36 {
+  margin-bottom: 36px;
+}
+
+.d-fex {
+  display: flex;
+}
+
+.jcsa {
+  justify-content: space-around;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.aic {
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}/*# sourceMappingURL=all.css.map */
