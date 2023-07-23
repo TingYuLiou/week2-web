@@ -1,8 +1,10 @@
+@charset "UTF-8";
 *, *:before, *:after {
   box-sizing: border-box;
-  outline: 1px solid;
+  /*outline:1px solid;*/
 }
 
+/*全站設定*/
 body {
   font-family: "Bruno Ace SC", cursive;
   line-height: 1.5;
@@ -30,6 +32,7 @@ img {
   margin: 0 auto;
 }
 
+/*樣式設定*/
 .header {
   margin-top: 40px;
 }
@@ -160,6 +163,7 @@ img {
   padding: 40px 0;
 }
 
+/*text*/
 h1 {
   font-size: 128px;
 }
@@ -180,6 +184,7 @@ h3 {
   font-size: 24px;
 }
 
+/*margin*/
 .ml-20 {
   margin-left: 20px;
 }
